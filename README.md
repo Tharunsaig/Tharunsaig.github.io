@@ -20,9 +20,25 @@ I am passionate about leveraging data to gain insights and solve problems. Check
 - Around 5% of high school graduates earn more than 50,000 annually in the census data.
   
 ## Data Visualizations
-| Distribution of Occupation by Annual Income | Distribution of Workclass | Mean Capital Gain by Workclass and Gender |
-|---------------------------------------------|----------------------------|------------------------------------------|
-| ![Occupation Distribution by Annual Income](/images/distribution%20of%20occupation%20by%20annual_income.jpg) | ![Distribution of Workclass](/images/Mean%20capital%20gain%20by%20workclass.jpg) | ![Mean Capital Gain by Workclass and Gender](/images/Mean%20capital%20gain%20by%20workclass%20and%20sex.jpg) |
+<table>
+  <tr>
+    <td>
+      <img src="/images/distribution%20of%20occupation%20by%20annual_income.jpg" alt="Occupation Distribution by Annual Income" style="width: 300px;">
+    </td>
+    <td>
+      <img src="/images/Mean%20capital%20gain%20by%20workclass.jpg" alt="Distribution of Workclass" style="width: 300px;">
+    </td>
+    <td>
+      <img src="/images/Mean%20capital%20gain%20by%20workclass%20and%20sex.jpg" alt="Mean Capital Gain by Workclass and Gender" style="width: 300px;">
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Distribution of Occupation by Annual Income</strong></td>
+    <td align="center"><strong>Distribution of Workclass</strong></td>
+    <td align="center"><strong>Mean Capital Gain by Workclass and Gender</strong></td>
+  </tr>
+</table>
+
 
 
 
