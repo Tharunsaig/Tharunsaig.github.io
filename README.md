@@ -20,11 +20,9 @@ I am passionate about leveraging data to gain insights and solve problems. Check
 - Around 5% of high school graduates earn more than 50,000 annually in the census data.
   
 **Data vizualizations:**
-<div style="display: flex; justify-content: space-between;">
-    <img src="https://github.com/Tharunsaig/Census-Income-binary-classification/blob/main/distribution%20of%20occupation%20by%20annual_income.jpg" width="400">
-    <img src="https://github.com/Tharunsaig/Census-Income-binary-classification/blob/main/Mean%20capital%20gain%20by%20workclass.jpg" width="250">
-    <img src="https://github.com/Tharunsaig/Census-Income-binary-classification/blob/main/Mean%20capital%20gain%20by%20workclass%20and%20sex.jpg" width="400">
-</div>
+| ![Distribution of occupation by annual income](https://github.com/Tharunsaig/Census-Income-binary-classification/raw/main/distribution%20of%20occupation%20by%20annual_income.jpg) | ![Distribution of workclass](https://github.com/Tharunsaig/Census-Income-binary-classification/raw/main/Mean%20capital%20gain%20by%20workclass.jpg) | ![Mean capital gain by workclass and sex](https://github.com/Tharunsaig/Census-Income-binary-classification/raw/main/Mean%20capital%20gain%20by%20workclass%20and%20sex.jpg) |
+|:--:|:--:|:--:|
+| Distribution of occupation by annual income | Distribution of workclass | Mean capital gain by workclass and sex |
 
 **Algorithms used:** Random forest, Decision tree, Linear regression, and Logistic regression.  
 
