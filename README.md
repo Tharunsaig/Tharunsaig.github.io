@@ -19,10 +19,12 @@ I am passionate about leveraging data to gain insights and solve problems. Check
 - Approximately 52% of people from the United States are private employees and earn less than 50,000 annually in the census data.
 - Around 5% of high school graduates earn more than 50,000 annually in the census data.
   
-**Data vizualizations:**
-| ![Distribution of occupation by annual income](/images/distribution%20of%20occupation%20by%20annual_income.jpg) | ![Distribution of workclass](/images/Mean%20capital%20gain%20by%20workclass.jpg) | ![Mean capital gain by workclass and sex](/images/Mean%20capital%20gain%20by%20workclass%20and%20sex.jpg) |
-|:--:|:--:|:--:|
-| Distribution of occupation by annual income | Distribution of workclass | Mean capital gain by workclass and sex |
+## Data Visualizations
+| Distribution of Occupation by Annual Income | Distribution of Workclass | Mean Capital Gain by Workclass and Gender |
+|---------------------------------------------|----------------------------|------------------------------------------|
+| ![Occupation Distribution by Annual Income](/images/distribution%20of%20occupation%20by%20annual_income.jpg) | ![Distribution of Workclass](/images/Mean%20capital%20gain%20by%20workclass.jpg) | ![Mean Capital Gain by Workclass and Gender](/images/Mean%20capital%20gain%20by%20workclass%20and%20sex.jpg) |
+
+
 
 **Algorithms used:** Random forest, Decision tree, Linear regression, and Logistic regression.  
 
