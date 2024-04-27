@@ -19,7 +19,7 @@ I am passionate about leveraging data to gain insights and solve problems. Check
 - Approximately 52% of people from the United States are private employees and earn less than 50,000 annually in the census data.
 - Around 5% of high school graduates earn more than 50,000 annually in the census data.
   
-## Data Visualizations
+**Data Visualizations**
 <table>
   <tr>
     <td>
