@@ -21,9 +21,9 @@ I am passionate about leveraging data to gain insights and solve problems. Check
   
 **Data vizualizations:**
 <div style="display: flex; justify-content: space-between;">
-    <img src="https://github.com/Tharunsaig/Census-Income-binary-classification/blob/main/distribution%20of%20occupation%20by%20annual_income.jpg" width="450">
+    <img src="https://github.com/Tharunsaig/Census-Income-binary-classification/blob/main/distribution%20of%20occupation%20by%20annual_income.jpg" width="400">
     <img src="https://github.com/Tharunsaig/Census-Income-binary-classification/blob/main/Mean%20capital%20gain%20by%20workclass.jpg" width="250">
-    <img src="https://github.com/Tharunsaig/Census-Income-binary-classification/blob/main/Mean%20capital%20gain%20by%20workclass%20and%20sex.jpg" width="250">
+    <img src="https://github.com/Tharunsaig/Census-Income-binary-classification/blob/main/Mean%20capital%20gain%20by%20workclass%20and%20sex.jpg" width="400">
 </div>
 
 **Algorithms used:** Random forest, Decision tree, Linear regression, and Logistic regression.  
