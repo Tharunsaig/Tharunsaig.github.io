@@ -9,17 +9,82 @@ I am passionate about leveraging data to gain insights and solve problems. Check
 ## Projects
 
 ## Machine Learning Projects
-#### 1. Census Project
 
-**Problem Description:** This project involves preprocessing and exploring the Census Income dataset to understand its features through exploratory analysis and visualization. Subsequently, classification algorithms will be employed to predict whether an individual earns over 50,000 a year or less. The dataset, sourced from the UCI Machine Learning Repository, comprises income details of over 30,000 individuals from the 1994 US census.  
+### 1. Exploring Online Retail Purchase Patterns
 
-**Exploratory Data Analysis:**
-- 74% of the people are under the working class "Private" in the census data.
-- The highest Mean capital gain is for the "Self-employed" working class, and "withoutpay" working class has the lowest Mean capital gain in the census data.
-- Approximately 52% of people from the United States are private employees and earn less than 50,000 annually in the census data.
-- Around 5% of high school graduates earn more than 50,000 annually in the census data.
-  
-**Data Visualizations**
+**Objective:** 
+The aim of this analysis is to delve into the diverse purchasing behaviors of customers within an online retail store. Through evidence-based insights, we seek to unravel significant patterns in customer transactions.
+
+**Dataset Overview:**
+The dataset comprises 541,909 entries across 8 columns, encompassing purchase data spanning from 2010 to 2011.
+
+**Key Findings from Exploratory Data Analysis:**
+- Notably, the United Kingdom exhibits the highest frequency of order cancellations within the dataset.
+- "WHITE HANGING HEART T-LIGHT HOLDER" emerges as the most commonly purchased item.
+- Interestingly, Thursday, Wednesday, and Tuesday collectively account for approximately 52% of shopping days.
+- November stands out as the month with the highest proportion of purchases, constituting 16% of the total orders.
+
+**Insightful Data Visualizations:**
+<table>
+  <tr>
+    <td>
+      <img src="/images/monthly%20purchases.jpg" alt="Monthly Purchases" style="width: 300px; float: left; margin-right: 20px;">
+    </td>
+    <td>
+      <img src="/images/percentage%20of%20shopping%20by%20day.jpg" alt="Shopping Day Distribution" style="width: 300px; float: right; margin-left: 20px;">
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <em>Figure 1: Distribution of Monthly Purchases</em>
+    </td>
+    <td>
+      <em>Figure 2: Percentage of Shopping by Day</em>
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td>
+      <img src="/images/top%2010%20customers%20.jpg" alt="Top 10 Customers" style="width: 300px; float: left; margin-right: 20px;">
+    </td>
+    <td>
+      <img src="/images/clustering%20images.jpg" alt="Customer Segmentation" style="width: 300px; float: left; margin-right: 20px;">
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <em>Figure 3: Top 10 Customers by Amount Spent</em>
+    </td>
+    <td>
+      <em>Figure 4: Segmented Customers by RFM Values</em>
+    </td>
+  </tr>
+</table>
+
+
+**Utilized Algorithms:** 
+Our analysis employed Kmeans clustering and AgglomerativeClustering techniques to discern customer segments effectively.
+
+**Project Notebook:** 
+For a comprehensive review of the analysis process, refer to the [Online Retail Sales project notebook](https://github.com/Tharunsaig/Online-retail-clustering-project/blob/main/online_retail%20project.ipynb). Notably, the segmentation of customers based on Recency, Frequency, and Monetary values was conducted, with Kmeans clustering yielding the most insightful results.
+
+### 2. Census project
+
+**Project Summary:** 
+This project involves comprehensive preprocessing and exploration of the Census Income dataset, aimed at understanding its features through thorough analysis and visualization. Following this exploration, various classification algorithms will be deployed to predict whether an individual earns over $50,000 annually or less. 
+
+**Dataset Overview:**
+The dataset, drawn from the UCI Machine Learning Repository, encompasses income details of over 30,000 individuals from the 1994 US census.
+
+**Key Insights from Exploratory Analysis:**
+- Within the census data, a significant majority, accounting for 74%, are classified under the "Private" working class.
+- Notably, the "Self-employed" category exhibits the highest mean capital gain, whereas those classified as "withoutpay" have the lowest.
+- Approximately 52% of individuals from the United States work in the private sector and earn an annual income of less than $50,000.
+- Surprisingly, only about 5% of high school graduates manage to surpass the $50,000 annual income threshold.
+
+**Insightful Visualizations:**
 <table>
   <tr>
     <td>
@@ -33,33 +98,20 @@ I am passionate about leveraging data to gain insights and solve problems. Check
     </td>
   </tr>
   <tr>
-    <td align="center"><strong>Distribution of Occupation by Annual Income</strong></td>
+    <td align="center"><strong>Occupation Distribution by Annual Income</strong></td>
     <td align="center"><strong>Distribution of Workclass</strong></td>
     <td align="center"><strong>Mean Capital Gain by Workclass and Gender</strong></td>
   </tr>
 </table>
 
+**Utilized Algorithms:** 
+The project incorporates a variety of algorithms, including Random Forest, Decision Tree, Linear Regression, and Logistic Regression.
+
+**Project Notebook:** 
+For a detailed exploration of the data preprocessing, manipulation, visualization, and classification modeling processes, refer to the [Census project notebook](https://github.com/Tharunsaig/Census-Income-binary-classification/blob/main/Census%20project%20(1).ipynb).
 
 
 
-**Algorithms used:** Random forest, Decision tree, Linear regression, and Logistic regression.  
-
-**Project notebook link:** [Census project notebook](https://github.com/Tharunsaig/Census-Income-binary-classification/blob/main/Census%20project%20(1).ipynb)
-
-#### Deeplearning & Natural Language Processing Projects
-(a) **Problem Description:** Brief description of the problem statement and objectives.  
-(b) **Exploratory Data Analysis:** Description of EDA process and [plot images](link-to-plots).  
-(c) **Feature Engineering:** Implementation of feature engineering using Pandas.  
-(d) **Model:** Link to the repository containing the model implementation.  
-(e) **Results:** Description of results with accompanying [result images](link-to-results).
-
-### Data Visualization Projects
-
-#### Project Title
-(a) **Problem Description:** Brief description of the problem statement and objectives.  
-(b) **Languages Used:** Icon and name of languages used (e.g., Python, R).  
-(c) **Exploratory Data Analysis:** Description of EDA process and [plot images](link-to-plots).  
-(d) **Power BI Dashboard:** Link to the Power BI dashboard.
 
 ## Certificates
 
