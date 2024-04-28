@@ -83,8 +83,7 @@ The dataset comprises 6435 entries across 8 columns sales data from 2010 t0 2013
 - The 51st week stands out with the highest sales.
 - The top-performing store, Store 20, boasts an average sales figure of $2,107,676.87, while the worst-performing store, Store 33, lags significantly with an average sales figure of $259,861.69.
 - A discernible negative correlation exists between temperature and weekly sales, indicating that higher temperatures correlate with lower sales volumes.
-- Analysis of scatter plots and regression lines confirms a slight downward slope, indicative of a mildly negative relationship.
-- The regression line's negative slope suggests an inverse correlation between the unemployment rate and weekly sales.
+- Analysis of scatter plots and regression lines confirms a slight downward slope, indicative of a mildly negative relationship suggests an inverse correlation between the unemployment rate and weekly sales.
 
 **Insightful Data Visualizations:**
 <table>
