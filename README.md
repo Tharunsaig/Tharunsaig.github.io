@@ -63,16 +63,71 @@ The dataset comprises 541,909 entries across 8 columns, encompassing purchase da
   </tr>
 </table>
 
-
 **Utilized Algorithms:** 
 Our analysis employed Kmeans clustering and AgglomerativeClustering techniques to discern customer segments effectively.
 
 **Project Notebook:** 
 For a comprehensive review of the analysis process, refer to the [Online Retail Sales project notebook](https://github.com/Tharunsaig/Online-retail-clustering-project/blob/main/online_retail%20project.ipynb). Notably, the segmentation of customers based on Recency, Frequency, and Monetary values was conducted, with Kmeans clustering yielding the most insightful results.
 
-### 2. Census project
+### 2. Walmart capstone
 
-**Project Summary:** 
+**Objective:** 
+A retail store that has multiple outlets across the country are facing issues in managing the inventory - to match the demand with respect to supply. You are a data scientist, who must come up with useful
+insights using the data and make prediction models to forecast the sales for X number of months/years
+
+**Dataset Overview:**
+The dataset comprises 6435 entries across 8 columns sales data from 2010 t0 2013.
+
+**Key Insights from Exploratory Data Analysis:**
+- January registers less than 10% of the average total sales, while December sees a 15% surge.
+- The 51st week stands out with the highest sales.
+- The top-performing store, Store 20, boasts an average sales figure of $2,107,676.87, while the worst-performing store, Store 33, lags significantly with an average sales figure of $259,861.69.
+- A discernible negative correlation exists between temperature and weekly sales, indicating that higher temperatures correlate with lower sales volumes.
+- Analysis of scatter plots and regression lines confirms a slight downward slope, indicative of a mildly negative relationship.
+- The regression line's negative slope suggests an inverse correlation between the unemployment rate and weekly sales.
+
+**Insightful Data Visualizations:**
+<table>
+  <tr>
+    <td>
+      <img src="/images/Monthwise.jpg" alt="% of Montly Average sales" style="width: 300px; margin-right: 20px;">
+    </td>
+    <td>
+      <img src="/images/averagesalesperstore.jpg" alt="Average sales per store" style="width: 300px; margin-left: 20px;">
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <em>Figure 1: Monthly Average sales </em>
+    </td>
+    <td>
+      <em>Figure 2: Average sales per store</em>
+    </td>
+  </tr>
+</table>
+<table>
+  <tr>
+    <td>
+      <img src="/images/salespattern.jpg" alt="% of Montly Average sales" style="width: 620px;margin-left: 20px;">
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <em>Figure 3: Seasonal sales pattern</em>
+    </td>
+  </tr>
+</table>
+
+**Utilized Algorithms:** 
+ARIMA, SARIMA, and Random Forest were used for the sales prediction
+
+**Project Notebook:** 
+The analysis involved data sampling, stationarity checks using the Dickey-Fuller test, and forecasting using time series algorithms such as ARIMA, AutoARIMA, and SARIMA, as well as tree algorithms. Random Forest yielded favorable results.For more detailed overview, refer to the [Walmart sales forecasting](https://github.com/Tharunsaig/Walmart-sales-analysis-project/blob/main/Walmart%20project.ipynb).
+
+
+### 3. Census capstone
+
+**Objective:** 
 This project involves comprehensive preprocessing and exploration of the Census Income dataset, aimed at understanding its features through thorough analysis and visualization. Following this exploration, various classification algorithms will be deployed to predict whether an individual earns over $50,000 annually or less. 
 
 **Dataset Overview:**
@@ -84,7 +139,7 @@ The dataset, drawn from the UCI Machine Learning Repository, encompasses income 
 - Approximately 52% of individuals from the United States work in the private sector and earn an annual income of less than $50,000.
 - Surprisingly, only about 5% of high school graduates manage to surpass the $50,000 annual income threshold.
 
-**Insightful Visualizations:**
+**Insightful Data Visualizations:**
 <table>
   <tr>
     <td>
